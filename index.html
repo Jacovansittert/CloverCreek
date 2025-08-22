@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clover Creek – Holiday Rental in Klein Brak River</title>
+  <meta name="description" content="Clover Creek is a modern 2‑bedroom, 1‑bathroom holiday rental with a private garage and outdoor braai area in Klein Brak River, Garden Route, South Africa." />
+
+  <!-- Google Search Console (replace content with your code) -->
+  <meta name="google-site-verification" content="PASTE_SEARCH_CONSOLE_CODE_HERE" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Clover Creek – Klein Brak River" />
+  <meta property="og:description" content="Modern 2‑bedroom holiday rental with garage and private braai area near the beach." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.clovercreek.co.za/" />
+  <meta property="og:image" content="/assets/og-cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.clovercreek.co.za/" />
+
+  <!-- Google Analytics 4 (replace G-XXXX with your Measurement ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXX');
+  </script>
+
+  <!-- JSON‑LD: Vacation Rental Schema for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VacationRental",
+    "name": "Clover Creek",
+    "description": "Modern 2‑bedroom holiday rental with private garage and outdoor braai area in Klein Brak River, Garden Route.",
+    "url": "https://www.clovercreek.co.za/",
+    "image": [
+      "https://www.clovercreek.co.za/assets/gallery/living.jpg",
+      "https://www.clovercreek.co.za/assets/gallery/braai.jpg"
+    ],
+    "numberOfRooms": 2,
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Private Braai Area", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Garage Parking", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Free Wi‑Fi", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Smart TV", "value": true}
+    ],
+    "address": {"@type":"PostalAddress","addressLocality":"Klein Brak River","addressRegion":"Western Cape","addressCountry":"ZA"},
+    "geo": {"@type":"GeoCoordinates","latitude": -34.1020, "longitude": 22.1200},
+    "petsAllowed": false
+  }
+  </script>
+
+  <style>
+    :root{--bg:#0b0e12;--ink:#101317;--card:#131821;--muted:#5e6b7a;--brand:#2fb67e;--brand2:#2ea6e1;--paper:#ffffff}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;color:#1a1f29;background:#f7f8fb}
+    img{max-width:100%;display:block;border-radius:16px}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+    .section{padding:72px 0}
+    .section-alt{background:#f0f3f7}
+    .section-accent{background:linear-gradient(180deg,#eefaf5,#eef6fc)}
+    .nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.85);backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid #e8ecf2}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;min-height:64px}
+    .nav a{color:#1a1f29;text-decoration:none;margin-left:18px}
+    .logo{font-weight:700;font-size:1.05rem}
+    .btn{display:inline-block;padding:10px 16px;border-radius:999px;border:1px solid #dfe6ee}
+    .btn-primary{background:var(--brand);border-color:var(--brand);color:#fff}
+    .btn-outline{background:#fff}
+    .hero{position:relative;height:64vh;display:grid;place-items:center;background:url('assets/hero.jpg') center/cover no-repeat}
+    .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,.45))}
+    .hero-content{position:relative;color:#fff;text-align:center;padding:0 12px}
+    .hero h1{font-size:clamp(28px,4vw,44px);margin:0 0 8px}
+    .hero p{opacity:.95;margin:0 0 20px}
+    .grid-2{display:grid;grid-template-columns:1fr;gap:28px}
+    @media(min-width:900px){.grid-2{grid-template-columns:1.15fr .85fr}}
+    .card{background:#fff;border:1px solid #e6ecf2;border-radius:20px;padding:20px;box-shadow:0 6px 20px rgba(16,19,23,.06)}
+    .facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:10px}
+    .facts div{background:#f7fafc;border-radius:12px;padding:12px 14px;border:1px solid #e6ecf2}
+    .facts span{display:block;color:#5b6a79;font-size:12px;margin-bottom:6px}
+    .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    @media(min-width:800px){.gallery{grid-template-columns:repeat(4,1fr)}}
+    .amenities{display:flex;flex-wrap:wrap;gap:10px}
+    .amenity{padding:8px 12px;border:1px solid #e0e6ee;border-radius:999px;background:#fff}
+    .map-wrap{border-radius:16px;overflow:hidden;border:1px solid #e6ecf2;box-shadow:0 6px 18px rgba(16,19,23,.06)}
+    .reviews blockquote{background:#fff;border:1px solid #e6ecf2;border-radius:16px;padding:14px 16px;margin:0 0 12px}
+    .reviews cite{display:block;color:#5b6a79;margin-top:6px}
+    .form label{display:block;font-size:14px}
+    .form input,.form select,.form textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid #dfe6ee;background:#fff}
+    .form button{margin-top:10px}
+    .footer{margin-top:40px;background:#0e1116;color:#e8eef5}
+    .footer-inner{display:flex;gap:12px;justify-content:space-between;align-items:flex-start;padding:24px 0}
+    .footer a{color:#e8eef5;text-decoration:none}
+    .legal{padding:8px 0 24px;border-top:1px solid #1c2230;color:#a9b6c9}
+    .micro{color:#6a7789;font-size:12px}
+    .small{font-size:14px}
+    .pricecard h3{margin-top:0}
+    .invoice{display:none;background:#fff;border:1px solid #e6ecf2;border-radius:16px;padding:16px;margin-top:16px}
+    .invoice-row{display:flex;justify-content:space-between;margin:4px 0}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#">Clover Creek</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#location">Location</a>
+        <a href="#booking" class="btn">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1>Modern 2‑Bedroom Retreat in Klein Brak River</h1>
+      <p>2 bedrooms • 1 full bathroom • private garage • outdoor braai area</p>
+      <a href="#booking" class="btn btn-primary">Book Your Stay</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="section container">
+      <div class="grid-2">
+        <div>
+          <h2>About Clover Creek</h2>
+          <p>
+            Nestled in the peaceful coastal town of <strong>Klein Brak River</strong>, Clover Creek offers a comfortable
+            base for families, couples, and business travelers along the Garden Route. Enjoy modern finishes, a private
+            garage, and a <strong>dedicated braai area</strong> for relaxed evenings.
+          </p>
+          <ul class="small">
+            <li>🛏️ 2 Bedrooms (sleeps up to 4)</li>
+            <li>🛁 1 Full Bathroom</li>
+            <li>🚗 Private Garage Parking</li>
+            <li>🔥 Outdoor Braai Area</li>
+            <li>🌊 Minutes from beach & river</li>
+          </ul>
+        </div>
+        <div>
+          <div class="card">
+            <h3>At a Glance</h3>
+            <div class="facts">
+              <div><span>Check‑in</span><strong>15:00</strong></div>
+              <div><span>Check‑out</span><strong>10:00</strong></div>
+              <div><span>Wi‑Fi</span><strong>Fast & Free</strong></div>
+              <div><span>Parking</span><strong>Private Garage</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section-alt">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <!-- Replace src with your images in /assets/gallery/ -->
+          <a href="assets/gallery/living.jpg" class="glight"><img src="assets/gallery/thumbs/living.jpg" alt="Living room" loading="lazy"></a>
+          <a href="assets/gallery/kitchen.jpg" class="glight"><img src="assets/gallery/thumbs/kitchen.jpg" alt="Kitchen" loading="lazy"></a>
+          <a href="assets/gallery/bed1.jpg" class="glight"><img src="assets/gallery/thumbs/bed1.jpg" alt="Bedroom 1" loading="lazy"></a>
+          <a href="assets/gallery/bed2.jpg" class="glight"><img src="assets/gallery/thumbs/bed2.jpg" alt="Bedroom 2" loading="lazy"></a>
+          <a href="assets/gallery/bath.jpg" class="glight"><img src="assets/gallery/thumbs/bath.jpg" alt="Bathroom" loading="lazy"></a>
+          <a href="assets/gallery/braai.jpg" class="glight"><img src="assets/gallery/thumbs/braai.jpg" alt="Outdoor braai area" loading="lazy"></a>
+          <a href="assets/gallery/garage.jpg" class="glight"><img src="assets/gallery/thumbs/garage.jpg" alt="Garage" loading="lazy"></a>
+          <a href="assets/gallery/exterior.jpg" class="glight"><img src="assets/gallery/thumbs/exterior.jpg" alt="Exterior" loading="lazy"></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="amenities" class="section container">
+      <h2>Amenities</h2>
+      <div class="amenities">
+        <div class="amenity">Free Wi‑Fi</div>
+        <div class="amenity">Smart TV</div>
+        <div class="amenity">Equipped Kitchen</div>
+        <div class="amenity">Private Garage</div>
+        <div class="amenity">Outdoor Braai</div>
+        <div class="amenity">Family‑Friendly</div>
+      </div>
+    </section>
+
+    <section id="location" class="section section-alt">
+      <div class="container">
+        <h2>Location</h2>
+        <p>We are located in Klein Brak River, Western Cape — a quiet coastal town between Hartenbos and Mossel Bay.</p>
+        <div class="map-wrap">
+          <!-- Replace with your Google Maps Embed (Share > Embed a map) -->
+          <iframe title="Clover Creek on Google Maps" src="https://www.google.com/maps/embed?pb=PASTE_YOUR_EMBED_CODE_HERE" width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <ul class="small">
+          <li>5 min – Klein Brak Beach</li>
+          <li>10 min – Hartenbos</li>
+          <li>15 min – Mossel Bay</li>
+          <li>30 min – George Airport</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Booking + Payment (No third‑party processors) -->
+    <section id="booking" class="section section-accent">
+      <div class="container grid-2">
+        <div>
+          <h2>Book Your Stay</h2>
+          <p>Send a booking request and pay via <strong>direct bank transfer (EFT)</strong>. No third‑party apps or card processors.</p>
+
+          <form id="bookingForm" class="form" onsubmit="handleBooking(event)">
+            <div class="grid-2">
+              <label>Full Name<input name="name" required></label>
+              <label>Email<input name="email" type="email" required></label>
+            </div>
+            <div class="grid-2">
+              <label>Check‑in<input name="checkin" type="date" required></label>
+              <label>Check‑out<input name="checkout" type="date" required></label>
+            </div>
+            <div class="grid-2">
+              <label>Guests<select name="guests" required>
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select></label>
+              <label>Nightly Rate (ZAR)<input name="rate" type="number" min="1" value="1200" required></label>
+            </div>
+            <label>Message (optional)<textarea name="message" rows="4" placeholder="Any questions or requests?"></textarea></label>
+            <button class="btn btn-primary" type="submit">Calculate & Continue</button>
+          </form>
+
+          <div id="invoice" class="invoice">
+            <h3>Provisional Invoice</h3>
+            <div class="invoice-row"><span>Reference</span><strong id="invRef"></strong></div>
+            <div class="invoice-row"><span>Guest</span><strong id="invName"></strong></div>
+            <div class="invoice-row"><span>Dates</span><strong id="invDates"></strong></div>
+            <div class="invoice-row"><span>Nights</span><strong id="invNights"></strong></div>
+            <div class="invoice-row"><span>Nightly Rate</span><strong id="invRate"></strong></div>
+            <div class="invoice-row"><span>Total</span><strong id="invTotal"></strong></div>
+            <div class="invoice-row"><span>Deposit (50%)</span><strong id="invDeposit"></strong></div>
+            <hr>
+            <h4>Pay by EFT</h4>
+            <p>Use the bank details below and <strong>Reference</strong> shown above. Email POP to <a href="mailto:bookings@clovercreek.co.za">bookings@clovercreek.co.za</a>.</p>
+            <div class="card">
+              <div class="invoice-row"><span>Account Name</span><strong>Clover Creek</strong></div>
+              <div class="invoice-row"><span>Bank</span><strong>YOUR BANK NAME</strong></div>
+              <div class="invoice-row"><span>Account Number</span><strong>0000000000</strong></div>
+              <div class="invoice-row"><span>Branch Code</span><strong>000000</strong></div>
+              <div class="invoice-row"><span>Account Type</span><strong>Cheque / Current</strong></div>
+              <div class="invoice-row"><span>SWIFT (intl.)</span><strong>XXXXXXXX</strong></div>
+            </div>
+            <p class="micro">Note: Card processing directly on your own website requires PCI‑DSS compliance and a certified processor. For guest safety and your liability, we only take secure EFTs.</p>
+            <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+              <button class="btn" onclick="window.print()">Print / Save PDF</button>
+              <button class="btn btn-outline" id="emailBtn">Email Booking Request</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card pricecard">
+          <h3>What to Expect</h3>
+          <ul class="small">
+            <li>Direct host communication</li>
+            <li>Secure, quiet complex</li>
+            <li>Private garage & braai area</li>
+            <li>Minutes from the beach</li>
+          </ul>
+          <p class="micro">Pay 50% deposit by EFT to secure your dates. Balance due 3 days before arrival (or on arrival by arrangement).</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Clover Creek</strong><br>
+        Klein Brak River, Western Cape, South Africa
+      </div>
+      <div class="social">
+        <a href="tel:+27XXXXXXXXX">Call</a>
+        <a href="https://wa.me/27XXXXXXXXX">WhatsApp</a>
+        <a href="mailto:info@clovercreek.co.za">Email</a>
+      </div>
+    </div>
+    <div class="container legal">
+      <small>© <span id="year"></span> Clover Creek. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    // Current year
+    document.addEventListener('DOMContentLoaded', () => {
+      const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
+
+      // Minimal lightbox for gallery
+      const links = document.querySelectorAll('.glight');
+      const overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.9);display:none;align-items:center;justify-content:center;z-index:9999;padding:20px;';
+      const img = document.createElement('img');
+      img.style.maxWidth = '92%'; img.style.maxHeight = '92%'; img.style.borderRadius = '16px';
+      overlay.appendChild(img);
+      overlay.addEventListener('click', ()=> overlay.style.display='none');
+      document.body.appendChild(overlay);
+      links.forEach(a => a.addEventListener('click', e => { e.preventDefault(); img.src = a.href; overlay.style.display = 'flex'; }));
+    });
+
+    // Booking + EFT "payment" generator (no third parties)
+    function nightsBetween(ci, co){
+      const MS = 24*60*60*1000; return Math.max(0, Math.round((co-ci)/MS));
+    }
+
+    function formatZAR(n){ return new Intl.NumberFormat('en-ZA', { style: 'currency', currency: 'ZAR' }).format(n); }
+
+    function handleBooking(e){
+      e.preventDefault();
+      const f = e.target;
+      const name = f.name.value.trim();
+      const email = f.email.value.trim();
+      const checkin = new Date(f.checkin.value);
+      const checkout = new Date(f.checkout.value);
+      const guests = parseInt(f.guests.value,10);
+      const rate = Number(f.rate.value);
+
+      if(!(checkin instanceof Date) || !(checkout instanceof Date) || isNaN(rate)) return;
+      const nights = nightsBetween(checkin, checkout);
+      if(nights <= 0){ alert('Please select valid dates.'); return; }
+
+      const total = nights * rate; // simple pricing
+      const deposit = Math.round(total * 0.5);
+
+      // Reference code CC-YYYYMMDD-XXXX
+      const pad = n => String(n).padStart(2,'0');
+      const d = new Date();
+      const ref = `CC-${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}-${Math.floor(Math.random()*9000+1000)}`;
+
+      // Populate invoice UI
+      document.getElementById('invRef').textContent = ref;
+      document.getElementById('invName').textContent = name;
+      document.getElementById('invNights').textContent = String(nights);
+      document.getElementById('invRate').textContent = `${formatZAR(rate)} / night`;
+      document.getElementById('invTotal').textContent = formatZAR(total);
+      document.getElementById('invDeposit').textContent = formatZAR(deposit);
+      document.getElementById('invDates').textContent = `${f.checkin.value} → ${f.checkout.value} (${guests} guest${guests>1?'s':''})`;
+
+      const inv = document.getElementById('invoice');
+      inv.style.display = 'block';
+
+      // Prepare email
+      const emailBtn = document.getElementById('emailBtn');
+      const subject = encodeURIComponent(`Booking Request ${ref} — ${f.checkin.value} to ${f.checkout.value}`);
+      const body = encodeURIComponent(
+        `Hello Clover Creek,\n\nI would like to book the dates below.\n\n`+
+        `Name: ${name}\nEmail: ${email}\nGuests: ${guests}\nCheck‑in: ${f.checkin.value}\nCheck‑out: ${f.checkout.value}\nNights: ${nights}\nNightly Rate: ${formatZAR(rate)}\nTotal: ${formatZAR(total)}\nDeposit (50%): ${formatZAR(deposit)}\nReference: ${ref}\n\nMessage:\n${(f.message.value||'').trim()}\n\nI will pay the deposit by EFT using the reference above and send proof of payment.\n`);
+      emailBtn.onclick = () => {
+        window.location.href = `mailto:bookings@clovercreek.co.za?subject=${subject}&body=${body}`;
+      };
+    }
+  </script>
+</body>
+</html>
